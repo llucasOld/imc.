@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* height: 500vh;
+    max-height: 100%; */
+    text-align: center;
+    padding: 13%;
+    background-image: url(https://img.freepik.com/fotos-premium/homens-se-exercitam-no-ginasio-representando-um-papel-de-parede-de-calistenia_1141042-738.jpg?w=826);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+    margin: 20px;
+    border-radius: 13px;
+    font-size: 124%;
+    padding: 20px;
+}
+
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+#main-header{
+    background-color: beige;
+    width: 200px;
+    border-radius: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 10px 10px 10px;
+}
+
+p{
+    height: 60px;
+    border-radius: 13px;   
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    background-color: aqua;
+    border-radius: 4px;
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    font-family: sans-serif;
+    
+}
+
+#peso{
+    width: 40px;
+    border-radius: 30px;
+}
+
+#altura{
+    width: 40px;
+    border-radius: 23px;
+}
+
+span{
+    margin: 40px;
+}
+
+.flex{
+    display: flex;
+    justify-content: end;
+    
+}
